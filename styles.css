@@ -1,0 +1,18 @@
+/* Task 1.1 - Container Styles */
+.container {
+  width: 500px;                  /* Fixed width of the container */
+  height: 300px;                 /* Fixed height of the container */
+  background-color: lightgray;   /* Light gray background */
+  padding: 20px;                 /* Space inside the container */
+  box-sizing: border-box;        /* Ensures padding doesn’t expand total size */
+}
+
+/* Task 1.2 - Content Styles */
+.content {
+  width: 400px;                  /* Fixed width of content box */
+  height: 200px;                 /* Fixed height of content box */
+  background-color: white;       /* White background for contrast */
+  margin: 0 auto;                /* Centers the content horizontally */
+  padding: 10px;                 /* Optional: adds space inside content box */
+  box-sizing: border-box;        /* Keeps dimensions consistent with padding */
+}
